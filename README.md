@@ -4,7 +4,7 @@
 # Licuadora App
 
 ## Descripción
-Licuadora App es una aplicación de una licuadora virtual que permita al usuario interactuar con la interfaz de una licuadora. Los usuarios puede hacer un numero de cosas como prender y apagar la licuadora, llenarla de contenidos, ajustar la velocidad y revisar el estatus de la misma. 
+Licuadora App es una aplicación de una licuadora virtual que permita al usuario interactuar con la interfaz de una licuadora. Los usuarios puede hacer un número de cosas como prender y apagar la licuadora, llenarla de contenidos, ajustar la velocidad y revisar el estatus de la misma. 
 
 ## Estructura del Proyecto
 ```
@@ -50,7 +50,7 @@ Para poder ejecutar el código, ingresar la siguiente línea:
    mvn exec:java -Dexec.mainClass="com.licuadora.Main"
    ```
 ## Tests
-Para corer las pruebas uniteras, ingresar la siguiente línea:
+Para corre las pruebas unitarias, ingresar la siguiente línea:
 ```
 mvn test
 ```
