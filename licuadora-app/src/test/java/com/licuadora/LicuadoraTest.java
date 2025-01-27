@@ -68,6 +68,6 @@ class LicuadoraTest {
   void testVaciar() {
     this.licuadora.llenar(1.0);
     this.licuadora.vaciar();
-    Assertions.assertFalse(this.licuadora.estaLlena(), "La licuadora debería estar vaciada");
+    Assertions.assertFalse(this.licuadora.estaLlena(), "La licuadora debería estar vacía");
   }
 }
