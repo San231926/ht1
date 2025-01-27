@@ -21,7 +21,7 @@ class LicuadoraTest {
   @Test
   void testEncenderSinContenido() {
     this.licuadora.encender();
-    Assertions.assertFalse(this.licuadora.estaEncendida(); "La licuadora no debería encenderse sin contenido");
+    Assertions.assertFalse(this.licuadora.estaEncendida(), "La licuadora no debería encenderse sin contenido");
   }
   @Test
   void testLlenarExcedeCapacidad() {
